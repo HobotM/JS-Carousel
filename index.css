@@ -4,7 +4,7 @@
     --dark-green: #344D2F;
     --light-green: #77A047;
     --gold: #FAC57D;
-    --snow: #F0F4F7;
+    --snow: #fff;
   }
   
   html, body {
@@ -36,16 +36,16 @@
       align-items: center;
       background: var(--light-green);
       color: var(--snow);
-      padding: 3em;
+      padding: 3em 1.5em;
   }
   
   img {
-      height: 300px;
+      height: 200px;
   }
   
   button {
-      padding: 1em;
-      margin: 0.5em;
+      padding: 0.5em 0.7em;
+      margin: 1em;
       border: none;
       font-size: 1rem;
       background-color: var(--gold);
